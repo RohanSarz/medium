@@ -1,0 +1,8 @@
+/* resources/css/app.css */
+@import "tailwindcss";
+@source "../../resources/views/**/*.blade.php";
+@source "../../resources/js/**/*.vue";
+@source "../../resources/ts/**/*.vue";
+/* Add other paths where you use Tailwind classes, e.g., Components */
+@source "../../resources/js/Components/**/*.vue";
+/* Your custom styles can go here too */
