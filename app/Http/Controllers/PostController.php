@@ -17,10 +17,8 @@ class PostController extends Controller
 
         $random_gif = $confusedGifs[array_rand($confusedGifs)];
 
-
-
         $posts = Post::orderBy('created_at', 'DESC')->paginate(5);
-        return view('dashboard', compact( 'posts', 'random_gif'));
+        return view('post.index', compact('posts', 'random_gif'));
     }
 
     /**

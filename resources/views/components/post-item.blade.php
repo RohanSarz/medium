@@ -1,6 +1,6 @@
 <div>
     <div class="flex items-center len bg-white border border-gray-200 rounded-lg shadow-sm mb-8">
-        {{ $post->id }}
+
         <div class="p-5  flex-1">
 
             <a href="#">
@@ -21,7 +21,7 @@
             </a>
         </div>
         <a href="#" class="">
-            <img class=" w-48 sm:w-24 h-full  rounded-r-lg object-cover " src="https://imageplaceholder.net/600"
+            <img class=" w-48 h-full  rounded-r-lg object-cover hidden sm:block " src="https://imageplaceholder.net/600"
                 alt="null" />
         </a>
     </div>
